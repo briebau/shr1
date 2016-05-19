@@ -1,0 +1,192 @@
+
+.logo {
+	height: 100px;
+	width: 125px;
+	margin-top: 20px;
+}
+
+header {
+	background: #D50101;
+	color: #fff;
+	display: inline-flex;
+	position: fixed;
+	z-index: 1;
+	width: 1170px;
+
+}
+
+.headsub {
+	margin-top: 0;
+}
+.phone-number {
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+}
+.icon {
+	width: 50px;
+	float: right;
+}
+
+.phone {
+	margin-top: 10px;
+}
+
+.social {
+	display: inline;
+	list-style: none;
+	margin-left: 30px;
+}
+nav {
+	width: 1170px;
+	position: fixed;
+	z-index: 1;
+	margin-top: 143px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+* {
+	font-family: 'Oswald', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+.container {
+	margin:auto;
+
+}
+
+.carousel {
+	margin-top: 183px;
+    width: 1170px;
+    height: 400px;
+}
+.info {
+	background: gray;
+	height: 810px;
+}
+
+footer {
+	background: #000;
+	width: 100%;
+	color: #fff;
+	margin-left: 0px;
+	height: 70px;
+	font-size: 16px;
+	clear: both;
+	width: 1200px;
+	padding: 0px;
+}
+
+.halogo {
+	width: 200px;
+	margin-left: 70px;
+}
+article {
+	font-size: 20px;
+}
+.red {
+	color: maroon;
+	font-size: 24px;
+}
+.item {
+	height: 400px;
+}
+
+.bottompic {
+	height: 300px;
+	margin: auto;
+}
+.about {
+	margin-top: 200px;
+}
+.services {
+	height: 100px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.63);
+	width: 1170px;
+	margin-top: 180px;
+}
+.headerpic {
+	display: inline-flex;
+	width: 300px;
+	height: 300px;
+	outline: 2px, solid, black;
+	margin: 33px;
+	box-shadow:10px 10px 5px #888;
+	border: 2px solid black;
+}
+.serv {
+	margin-top: 20px;
+}
+.sidepic {
+	float-right;
+	margin-left: 100px;
+}
+.mainart {
+	display: inline-block;
+	font-size: 20px;
+}
+.contact {
+	margin-top: 180px;
+}
+.contacts {
+	background: #000;
+	color: #fff;
+	margin-top: 180px;
+}
+
+.mainport {
+	margin-top: 180px;
+}
+
+#thumbwrap {
+	position:relative;
+	top: 185px;
+	margin:75px auto;
+	width:1170px; height:1000px;
+	display: inline-flex;
+	}
+.thumb img { 
+	border:1px solid #000;
+	margin:5px;
+	float:left;
+	box-shadow:10px 10px 5px #888;
+	width: 200px;
+	height: 200px;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0; left:250px; 
+	z-index:1;
+	width: 300px;
+	height: 300px;
+}
+.portfolio {
+
+}
