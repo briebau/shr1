@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
     <script type="text/javascript"> 
 function hgsubmit() 
 { 
@@ -35,8 +36,9 @@ else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) =
  <div><img src="images/visa-mastercard.png" style="width: 100px; margin-top: 10px;"><a href="#"><img src="images/twitter.png" class="icon img-responsive" alt="twitter"></a>
  <a href="https://www.facebook.com/Sterling-Home-Repair-Painting-LLC-729431670480924"><img src="images/facebook.png" class="icon" alt="facebook"></a>
   <a href="#"><img src="images/instagram.png" class="img-responsive icon" alt="instagram"></a></div></div></header>
-  <nav class="row"><ul class="nav col-md-12">
-  <li><a href="index.html">Home</a>
+  <nav class="row clearfix">
+  <ul class="clearfix col-md-12">
+  <li><a href="index.html" class="current">Home</a>
   </li>
   <li><a href="about.html">About Us</a>
   </li>
@@ -45,7 +47,9 @@ else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) =
   </li>
   <li><a href="contact.html">Contact Us</a>
   </li>
-  </ul> </nav>
+   </ul>
+  <a href="#" id="pull">Menu</a>
+  </nav>
   <article class="row">
   <div class="col-md-6 contact">
     <h1>CONTACT US</h1><p>
@@ -56,9 +60,10 @@ Email: <a href="sterlinghrp@outlook.com">sterlinghrp@outlook.com</a>
 <br>
 <br>
 Contact us now for all your Handyman needs! </p>
-
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:551px;'><div id='gmap_canvas' style='height:440px;width:551px;'></div><div><small><a href="http://embedgooglemaps.com">                 embed google maps             </a></small></div><div><small><a href="https://privacypolicytemplate.net">privacy policy template</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(28.4831682,-82.5369872),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.4831682,-82.5369872)});infowindow = new google.maps.InfoWindow({content:'<strong>Sterling Handyman Repair</strong><br>spring hill, fl<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
   </div>
   <div class="col-md-6 contacts"> 
+  <img src="images/comtact.png" class="img-responsive" alt="contact" style="margin-top: 10px">
     <h2 class="text-center" style="font-color: White;"><strong>Contact us for a quick free quote</strong></h2>
 <form action="http://www..com/cgi-sys/formmail.pl" method="post" name="hgmailer" style="background-color: maroon; color: #fff;"> 
 <input type="hidden" name="recipient" value="sterlinghrp@outlook.com"> 
