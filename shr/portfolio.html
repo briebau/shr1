@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/app.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</head>
 <body>
@@ -23,8 +24,9 @@
  <div><img src="images/visa-mastercard.png" style="width: 100px; margin-top: 10px;"><a href="#"><img src="images/twitter.png" class="icon img-responsive" alt="twitter"></a>
  <a href="https://www.facebook.com/Sterling-Home-Repair-Painting-LLC-729431670480924"><img src="images/facebook.png" class="icon" alt="facebook"></a>
   <a href="#"><img src="images/instagram.png" class="img-responsive icon" alt="instagram"></a></div></div></header>
-  <nav class="row"><ul class="nav col-md-12">
-  <li><a href="index.html">Home</a>
+  <nav class="row clearfix">
+  <ul class="clearfix col-md-12">
+  <li><a href="index.html" class="current">Home</a>
   </li>
   <li><a href="about.html">About Us</a>
   </li>
@@ -33,9 +35,25 @@
   </li>
   <li><a href="contact.html">Contact Us</a>
   </li>
-  </ul> </nav>
-   <div id="thumbwrap"><a class="thumb" href="#"> <img src="images/repairs.png"><span><img src="images/repairs.png" ></span></a> <a class="thumb" href="#"> <img src="images/repair1.jpg" class="img-responsive"><span><img src="images/repairbig.jpg" class="img-responsive portfolio"></span></a><a class="thumb" href="#"> <img src="images/diy.jpg" class="img-responsive"><span><img src="images/diy.jpg" class="img-responsive portfolio"></span></a> <a class="thumb" href="#"> <img src="images/repairs.png" class="img-responsive"><span><img src="images/repairs.png" class="img-responsive portfolio"></span></a>  </div>
-  
+   </ul>
+  <a href="#" id="pull">Menu &#x25BE</a>
+  </nav>
+  <section class="row" style="margin-top: 183px">
+  <div class="col-md-12"><h1><strong>Please check out a few samples of our work!</strong></h1></div>
+  </section>
+  <jumbotron class="row">
+  <div class="thumbnails">
+  <img onmouseover="preview.src=img1.src" name="img1" src="images/diy.jpg" alt="" />
+  <img onmouseover="preview.src=img2.src" name="img2" src="images/paint1.jpg" alt="" />
+  <img onmouseover="preview.src=img3.src" name="img3" src="images/repair1.jpg" alt="" />
+  <img onmouseover="preview.src=img4.src" name="img4" src="images/repairbig.jpg" alt="" />
+  <img onmouseover="preview.src=img5.src" name="img5" src="images/repairs.png" alt="" />
+</div>
+<div class="preview" align="center">
+  <img name="preview" src="images/diy.jpg" alt=""/>
+</div>
+
+  </jumbotron>
   <footer class="row col-md-12" style="margin-left: 0px;"><p>Sterling Handyman Repair and Painting Llc your home repair expert located in Spring Hill, FL serving the surrounding areas of Brooksville, Port Richey, Hudson, Aripeka, Pasco and Hernando counties &copy 2013</p></footer>
 
 </div>>
