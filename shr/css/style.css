@@ -54,10 +54,12 @@ nav {
 }
 
 .carousel {
-	margin-top: 183px;
+	margin-top: 180px;
     width: 1170px;
     height: 400px;
 }
+
+
 .info {
 	background: gray;
 	height: 810px;
